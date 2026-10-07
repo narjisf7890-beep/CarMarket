@@ -1,0 +1,42 @@
+# ---------- Secrets (sabse zaroori) ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Backend (Flask / Python) ----------
+backend/venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Database (SQLite)
+backend/instance/
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# User ki upload ki hui images (folder rahe, files na jayen)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ---------- Frontend (React + Vite) ----------
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+*.local
+
+# ---------- Logs ----------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------- Editor / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
